@@ -1384,6 +1384,9 @@ label {
   .hero__title {
     font-size: 50px;
     margin-bottom: 20px; }
+  h1.hero__title.mb-0{
+    color: #000;
+  }
     @media only screen and (max-width: 767px) {
       .hero__title {
         font-size: 40px; } }
@@ -3052,7 +3055,7 @@ th {
       padding: 20px 0;
       list-style: none;
       white-space: nowrap;
-      background-color: #212121;
+      background-color: #0b275b;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
       border-radius: 0 0 5px 5px;
       -webkit-background-clip: padding-box;
@@ -3103,10 +3106,12 @@ th {
 /* Logo
 -------------------------------------------------------*/
 .logo {
-  max-height: 21px;
+  max-height: 65px;
   position: relative;
   top: -2px; }
-
+.logo--gatito{
+  width: 50px;
+}
 .logo__link {
   height: 72px;
   display: -webkit-box;
@@ -3278,22 +3283,22 @@ header .flex-child.flex-right {
 /* Nav Dark
 -------------------------------------------------------*/
 @media only screen and (min-width: 992px) {
-  .nav--dark {
-    background-color: #212121; }
-    .nav--dark .logo--dark,
-    .nav--dark .nav__holder.scrolling .logo--light {
+  .nav--darkBlue {
+    background-color: #061838; }
+    .nav--darkBlue .logo--dark,
+    .nav--darkBlue .nav__holder.scrolling .logo--light {
       display: none; }
-    .nav--dark .nav__holder.scrolling .logo--dark {
+    .nav--darkBlue .nav__holder.scrolling .logo--dark {
       display: inline-block; }
-    .nav--dark .nav__holder {
+    .nav--darkBlue .nav__holder {
       border-bottom: 0; }
-    .nav--dark .nav__menu > li > a {
+    .nav--darkBlue .nav__menu > li > a {
       color: #fff; }
-    .nav--dark .nav__holder.scrolling .nav__menu > li > a {
+    .nav--darkBlue .nav__holder.scrolling .nav__menu > li > a {
       color: #292b32; } }
 
 @media only screen and (max-width: 991px) {
-  .nav--dark .social-icons a:hover {
+  .nav--darkBlue .social-icons a:hover {
     color: #212121; } }
 
 .nav__holder.scrolling .social-icons a:hover {
@@ -4794,7 +4799,7 @@ body.nav--overlay-open {
   background-attachment: scroll !important; }
 
 .bg-dark {
-  background-color: #212121; }
+  background-color: #061838; }
 
 .bg-light {
   background-color: #fafafa; }
